@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cinema nom="Cinéma Lebron">
+    <films>
+        <film id="F1" genre="Action" disponible="true">
+            <titre>Inception</titre>
+            <realisateur>Christopher Nolan</realisateur>
+            <annee>2010</annee>
+            <duree>148</duree>
+            <note>8.8</note>
+        </film>
+        <film id="F2" genre="Drame" disponible="true">
+            <titre>The Pianist</titre>
+            <realisateur>Roman Polanski</realisateur>
+            <annee>2002</annee>
+            <duree>150</duree>
+            <note>8.5</note>
+        </film>
+        <film id="F3" genre="Animation" disponible="false">
+            <titre>Coco</titre>
+            <realisateur>Lee Unkrich</realisateur>
+            <annee>2017</annee>
+            <duree>105</duree>
+            <note>8.4</note>
+        </film>
+        <film id="F4" genre="Animation" disponible="true">
+            <titre>Dragon Ball Super: Broly</titre>
+            <realisateur>Tatsuya Nagamine</realisateur>
+            <annee>2018</annee>
+            <duree>100</duree>
+            <note>7.8</note>
+        </film>
+    </films>
+    <seances>
+        <seance filmRef="F1">
+            <salle>Salle 1</salle>
+            <date>2026-10-15</date>
+            <heure>20:30:00</heure>
+            <prix>12.5</prix>
+        </seance>
+        <seance filmRef="F2">
+            <salle>Salle 2</salle>
+            <date>2026-11-16</date>
+            <heure>18:00:00</heure>
+            <prix>10.0</prix>
+        </seance>
+        <seance filmRef="F4">
+            <salle>Salle 1</salle>
+            <date>2026-11-01</date>
+            <heure>17:30:14</heure>
+            <prix>10.5</prix>
+        </seance>
+    </seances>
+</cinema>
